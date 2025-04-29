@@ -64,7 +64,7 @@ export default function Home() {
         <div className="flex-1">
           <h2 className="text-3xl font-bold mb-4">Hakkımızda</h2>
           <p className="text-lg leading-relaxed">
-            Seneger Gıda, Amasya merkezli bir aile şirketidir ve geleneksel Türk mutfağının lezzetlerini modern üretim teknikleriyle birleştirerek müşterilerine sunmaktadır. Kurucusu Ayşe Seneger, evde başladığı mantı, börek ve kurabiye üretimini, KOSGEB desteğiyle kurduğu imalathanede büyüterek 25 kişiye istihdam sağlamıştır. Eşi, gıda mühendisi Ayhan Seneger'in de desteğiyle şirket kısa sürede Türkiye'nin birçok şehrine ve Avrupa'ya ürün gönderen bir marka haline gelmiştir.
+            Seneger Gıda, Amasya merkezli bir aile şirketidir ve geleneksel Türk mutfağının lezzetlerini modern üretim teknikleriyle birleştirerek müşterilerine sunmaktadır. Kurucusu Ayşe Seneger, evde başladığı mantı, börek ve kurabiye üretimini, KOSGEB desteğiyle kurduğu imalathanede büyüterek 25 kişiye istihdam sağlamıştır. Eşi, gıda mühendisi Ayhan Seneger&apos;in de desteğiyle şirket kısa sürede Türkiye&apos;nin birçok şehrine ve Avrupa&apos;ya ürün gönderen bir marka haline gelmiştir.
           </p>
         </div>
       </section>
@@ -126,7 +126,7 @@ export default function Home() {
       <section className="py-20 bg-gray-50 text-center px-10">
         <h2 className="text-4xl font-bold mb-8">Vizyonumuz</h2>
         <p className="max-w-3xl mx-auto text-lg leading-relaxed">
-          Seneger Gıda olarak, Anadolu'nun zengin mutfak kültürünü koruyarak, sağlıklı ve doğal ürünleri hem yurt içinde hem de yurt dışında daha geniş kitlelere ulaştırmayı hedefliyoruz. Kalite, güven ve müşteri memnuniyeti ilkelerimiz doğrultusunda, geleneksel lezzetleri modern dünyaya tanıtmak için çalışıyoruz.
+          Seneger Gıda olarak, Anadolu&apos;nun zengin mutfak kültürünü koruyarak, sağlıklı ve doğal ürünleri hem yurt içinde hem de yurt dışında daha geniş kitlelere ulaştırmayı hedefliyoruz. Kalite, güven ve müşteri memnuniyeti ilkelerimiz doğrultusunda, geleneksel lezzetleri modern dünyaya tanıtmak için çalışıyoruz.
         </p>
       </section>
 
