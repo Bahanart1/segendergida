@@ -48,20 +48,39 @@ export default function Home() {
       {/* Products */}
       <section id="products" className="py-20 bg-white px-4">
         <h3 className="text-4xl font-bold text-center mb-12">Ürünlerimiz</h3>
-        <div className="flex gap-6 overflow-x-auto px-4 scrollbar-thin">
-          {[
-            { name: "Börek", description: "Kat kat açılmış hamurla hazırlanan, içi bol ve nefis börek çeşitlerimiz.", image: "/borek.jpeg" },
-            { name: "Mantı", description: "Özel tariflerle hazırlanmış, geleneksel Türk mantısı.", image: "/manti.png" },
-            { name: "Erişte", description: "Doğal ve ev yapımı yöntemlerle üretilmiş eriştelerimiz.", image: "/eriste.jpeg" },
-            { name: "Kurabiye", description: "Ev yapımı, katkısız, ağızda dağılan kurabiyelerimiz.", image: "/kurabiye.jpeg" },
-            { name: "Reçel", description: "Mevsiminde toplanmış meyvelerle hazırlanmış doğal reçeller.", image: "/recel.jpeg" }
-          ].map((product) => (
-            <div key={product.name} className="min-w-[280px] bg-gray-100 rounded-lg shadow-md p-4 hover:shadow-lg transition">
-              <Image src={product.image} alt={`${product.name} Resmi`} width={280} height={180} className="rounded mb-3" />
-              <h4 className="text-xl font-semibold">{product.name}</h4>
-              <p className="text-sm mt-2">{product.description}</p>
+        <div className="relative">
+          <button
+            onClick={() => document.getElementById('scroll-container')!.scrollLeft -= 320}
+            className="absolute left-0 top-1/2 -translate-y-1/2 bg-yellow-500 hover:bg-yellow-600 text-white p-3 rounded-full shadow-md z-10"
+          >
+            ◀
+          </button>
+          <button
+            onClick={() => document.getElementById('scroll-container')!.scrollLeft += 320}
+            className="absolute right-0 top-1/2 -translate-y-1/2 bg-yellow-500 hover:bg-yellow-600 text-white p-3 rounded-full shadow-md z-10"
+          >
+            ▶
+          </button>
+          <div className="overflow-hidden">
+            <div
+              id="scroll-container"
+              className="flex gap-6 overflow-x-hidden px-4 scroll-smooth snap-x snap-mandatory"
+            >
+              {[
+                { name: "Börek", description: "Kat kat açılmış hamurla hazırlanan, içi bol ve nefis börek çeşitlerimiz.", image: "/borek.jpeg" },
+                { name: "Mantı", description: "Özel tariflerle hazırlanmış, geleneksel Türk mantısı.", image: "/manti.png" },
+                { name: "Erişte", description: "Doğal ve ev yapımı yöntemlerle üretilmiş eriştelerimiz.", image: "/eriste.jpeg" },
+                { name: "Kurabiye", description: "Ev yapımı, katkısız, ağızda dağılan kurabiyelerimiz.", image: "/kurabiye.jpeg" },
+                { name: "Reçel", description: "Mevsiminde toplanmış meyvelerle hazırlanmış doğal reçeller.", image: "/recel.jpeg" }
+              ].map((product) => (
+                <div key={product.name} className="min-w-[340px] bg-gray-100 rounded-lg shadow-md p-6 hover:shadow-lg transition snap-start">
+                  <Image src={product.image} alt={`${product.name} Resmi`} width={280} height={180} className="rounded mb-3" />
+                  <h4 className="text-xl font-semibold">{product.name}</h4>
+                  <p className="text-sm mt-2">{product.description}</p>
+                </div>
+              ))}
             </div>
-          ))}
+          </div>
         </div>
       </section>
 
@@ -72,6 +91,9 @@ export default function Home() {
             <h3 className="text-3xl font-bold mb-4">Bize Ulaşın</h3>
             <p className="text-lg mb-6">Ürünlerimiz ve hizmetlerimiz hakkında daha fazla bilgi almak için bizimle iletişime geçin.</p>
             <a href="mailto:iletisim@senegergida.com" className="inline-block bg-yellow-500 hover:bg-yellow-600 text-white font-medium py-3 px-6 rounded-full transition">Mail Gönder</a>
+            <div className="mt-6 flex items-center gap-4 text-yellow-700 text-xl font-semibold bg-yellow-100 px-4 py-3 rounded-lg shadow-md w-max">
+              <span>📞 0533 333 33 33</span>
+            </div>
           </div>
           <div className="w-full h-80">
             <iframe
