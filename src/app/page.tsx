@@ -39,7 +39,7 @@ export default function Home() {
           <div>
             <h3 className="text-3xl font-bold mb-4">Hakkımızda</h3>
             <p className="text-lg leading-relaxed">
-              Seneger Gıda, Amasya merkezli bir aile şirketidir ve geleneksel Türk mutfağının lezzetlerini modern üretim teknikleriyle birleştirerek müşterilerine sunmaktadır. Kurucusu Ayşe Seneger, evde başladığı mantı, börek ve kurabiye üretimini, KOSGEB desteğiyle kurduğu imalathanede büyüterek 25 kişiye istihdam sağlamıştır. Eşi, gıda mühendisi Ayhan Seneger&apos;in de desteğiyle şirket kısa sürede Türkiye&apos;nin birçok şehrine ve Avrupa&apos;ya ürün gönderen bir marka haline gelmiştir.
+              Seneger Gıda, Amasya merkezli bir aile şirketidir ve geleneksel Türk mutfağının lezzetlerini modern üretim teknikleriyle birleştirerek müşterilerine sunmaktadır. Kurucusu Ayşe Seneger, evde başladığı mantı, börek ve kurabiye üretimini, KOSGEB desteğiyle kurduğu imalathanede büyüterek 25 kişiye istihdam sağlamıştır. Eşi, gıda mühendisi Ayhan Seneger&#39;in de desteğiyle şirket kısa sürede Türkiye&#39;nin birçok şehrine ve Avrupa&#39;ya ürün gönderen bir marka haline gelmiştir.
             </p>
           </div>
         </div>
@@ -92,7 +92,7 @@ export default function Home() {
         <div className="max-w-4xl mx-auto">
           <h3 className="text-4xl font-bold mb-6">Vizyonumuz</h3>
           <p className="text-lg leading-relaxed text-gray-700">
-            Seneger Gıda olarak, Anadolu'nun zengin mutfak kültürünü koruyarak, sağlıklı ve doğal ürünleri hem yurt içinde hem de yurt dışında daha geniş kitlelere ulaştırmayı hedefliyoruz. Kalite, güven ve müşteri memnuniyeti ilkelerimiz doğrultusunda, geleneksel lezzetleri modern dünyaya tanıtmak için çalışıyoruz.
+            Seneger Gıda olarak, Anadolu&#39;nun zengin mutfak kültürünü koruyarak, sağlıklı ve doğal ürünleri hem yurt içinde hem de yurt dışında daha geniş kitlelere ulaştırmayı hedefliyoruz. Kalite, güven ve müşteri memnuniyeti ilkelerimiz doğrultusunda, geleneksel lezzetleri modern dünyaya tanıtmak için çalışıyoruz.
           </p>
         </div>
       </section>
