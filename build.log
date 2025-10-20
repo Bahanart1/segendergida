@@ -1,0 +1,29 @@
+yarn run v1.22.22
+warning ../../package.json: No license field
+$ next build
+   ▲ Next.js 15.3.1
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully in 1000ms
+   Linting and checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/4) ...
+   Generating static pages (1/4) 
+   Generating static pages (2/4) 
+   Generating static pages (3/4) 
+ ✓ Generating static pages (4/4)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                                 Size  First Load JS
+┌ ○ /                                      18 kB         119 kB
+└ ○ /_not-found                            978 B         102 kB
++ First Load JS shared by all             101 kB
+  ├ chunks/4bd1b696-52a6696c08e3276c.js  53.2 kB
+  ├ chunks/684-620875075a090f93.js         46 kB
+  └ other shared chunks (total)          1.91 kB
+
+
+○  (Static)  prerendered as static content
+
+Done in 8.08s.
